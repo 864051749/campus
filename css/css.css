@@ -1,0 +1,134 @@
+@charset "utf-8";
+body{font:12px "Microsoft YaHei";color:#333;background:#fff url(../images/bodybg.jpg) no-repeat center 0 fixed;background-size:100% 100%;}
+html {overflow-y:scroll;}
+body,h1,h2,h3,h4,h5,h6,p,blockquote,div,ul,ol,li,dl,dd,dt,textarea,input,form{padding:0; margin:0;}
+table,td,tr,th,font {font-size:12px;}
+h1,h2,h3,h4,h5,h6{font-size:12px;line-height:normal;}
+ul,ol,dl,dt,dd{list-style:none;}
+.but,img {border:0;}
+select,input{vertical-align:middle;}
+.clear {clear:both;font-size:0;line-height:0;height:0;overflow:hidden;}
+.w1000 {width:1000px;margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.ml10 {margin-left:10px;}
+.mr10 {margin-right:10px;}
+.mt10 {margin-top:10px;}
+.mb10 {margin-bottom:10px;}
+.font14 {font-size:14px;}
+.font16 {font-size:16px;}
+.font18 {font-size:18px;}
+.font20 {font-size:20px;}
+.font24 {font-size:24px;}
+.blank20 {height:20px;overflow:hidden; clear:both;}
+.blank15 {height:15px;overflow:hidden; clear:both;}
+.blank10 {height:10px;overflow:hidden; clear:both;}
+.blank8 {height:8px;overflow:hidden; clear:both;}
+.blank4 {height:4px;overflow:hidden; clear:both;}
+.hid { overflow:hidden;}
+.tl { text-align:left;} 
+.tc { text-align:center;}
+.tr { text-align:right;}
+.block { display:block;}
+.inline {_display:inline;}
+.bold { font-weight:bold;}
+.rel { position:relative;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: none;}
+.h_bor {border:solid 1px #ccc;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{*zoom:1;*display:block}
+
+/* color */
+.gfff,.gfff a,a.gfff {color:#fff;}
+.blue,a.blue,.blue a {color:#039;}
+.red,a.red,.red a {color:#ff0000;}
+.g333,a.g333,.g333 a {color:#333;}
+.g666,a.g666,.g666 a {color:#666;}
+.g999,a.g999,.g999 a {color:#999;}
+.black,.black a,a.black {color:#000;}
+.red2,.a.red2,.red2 a,
+a.blue:hover,.blue a:hover,
+a.red:hover,.red a:hover,
+a.g333:hover,.g333 a:hover,
+a.g666:hover,.g666 a:hover,
+a.g999:hover,.g999 a:hover,
+a.black:hover,.black a:hover
+{color:#cc0000;}
+.warpbox {}
+.xz-head-top { background:#45474f; line-height:43px;height:43px;color:#d0cfcf;}
+.xz-head-top a {color:#d0cfcf;}
+.xz-head-top a:hover {color:#fff;}
+.xz-nav {height:67px; background:#fff;}
+.xz-nav .logo { padding:3px 4px;}
+.xz-nav ul { padding:16px 35px 0 0;height:51px;}
+.xz-nav ul li { float:left; line-height:51px;}
+.xz-nav ul li a { display:block; padding:0 24px;color:#515566;}
+.xz-nav ul li .cur { background:#5baae3;color:#fff;}
+.sub-menu {color:#fff; background:#5baae3;height:51px; line-height:51px;}
+.sub-menu a {color:#fff;}
+.sub-menu a:hover,.sub-menu .dq {color:#ffd200;}
+.xz-wrap { background:#fff; padding:30px;width:940px;margin:0 auto;}
+.xz-wrap .main { background:#f7d9cd url(../images/bg1.gif) no-repeat right bottom;height:466px;padding:59px 0 0 183px;}
+.loginbox { background:url(../images/loginbg.png) no-repeat;width:311px;height:376px; padding:5px;}
+.loginbox h3 {font-size:25px;color:#625548;height:61px; line-height:61px;font-weight:normal;}
+.loginbox p {height:51px;width:238px;margin:0 auto 9px;}
+.loginbox .p2 {height:40px;width:238px;margin:0 auto 9px;}
+.loginbox p .txt { background:url(../images/bg01.png) no-repeat;width:162px;height:51px;line-height:51px;border:none; padding:0 25px 0 51px;font-size:18px;color:#a1a1a1;}
+.loginbox .p2 .txt2 { background:url(../images/bg02.png) no-repeat;width:77px;height:40px;line-height:40px;border:none; padding:0 20px;font-size:14px;color:#a1a1a1;}
+.loginbox p b {left:15px;top:17px; display:block; position:absolute;}
+.loginbox p .icon1 { background:url(../images/icon1.png) no-repeat;width:16px;height:15px;}
+.loginbox p .icon2 { background:url(../images/icon2.png) no-repeat;width:15px;height:20px;}
+.loginbox p .icon3 { background:url(../images/icon3.png) no-repeat;width:15px;height:20px;}
+.loginbox .p2 .btn1 { background:url(../images/bg03.png) no-repeat;height:36px;width:103px;margin:2px 0;border:none;color:#fff;font-size:16px; cursor:pointer;font-weight:bold;}
+.loginbox p .btn { background:url(../images/bg04.png) no-repeat;font-weight:bold;font-size:18px;color:#fff;height:50px;width:238px;border:none;cursor:pointer;}
+.h45 { height:45px; overflow:hidden;}
+
+.tg-main {background:#f1e6b9 url(../images/bg2.gif) no-repeat right bottom;height:486px;padding:41px 0 0 42px;}
+.tg-main .con { background:#ffffff;border:solid 1px #d2d2d2;width:535px; padding:0 20px 20px 30px;}
+.tg-main .con h3 { height:69px; line-height:69px;font-weight:normal;}
+.tg-main .con p { line-height:48px;color:#ec5e00;font-size:18px; padding-bottom:15px;}
+.tg-main .con .anniu { background:url(../images/qianwang-btn.png) no-repeat;width:202px;height:52px;}
+.wtg-main { background:#fff url(../images/bg3.gif) no-repeat right bottom; padding:32px 0 0 62px;height:550px;width:938px;margin:0 auto;}
+.no-info-main {background:#fff url(../images/bg6.gif) no-repeat right bottom; padding:32px 0 0 62px;height:550px;width:938px;margin:0 auto;}
+.no-info-main .con { background:#f7d9cd;width:514px; height:371px;font-size:24px;color:#5d5d5d; overflow:hidden; text-align:center;}
+.no-info-main .con p { padding-top:175px;}
+.wtg-bg { background:url(../images/bodybg2.jpg) no-repeat center 0 fixed;background-size:100% 100%;}
+.xuanze-bg { background:url(../images/bodybg3.jpg) no-repeat  center 0 fixed;background-size:100% 100%;}
+.wtg-main .con { background:url(../images/png.png) repeat; padding:40px 50px 60px;width:420px;font-size:20px;color:#fff; line-height:30px; text-align:justify;}
+.xuanze-main { background:#cee6e9 url(../images/bg4.gif) no-repeat left bottom;height:900px; padding:20px 0 0 90px}
+.xuanze-main dl {margin-bottom:30px;}
+.xuanze-main dl dt { background:#67b1af url(../images/icon4.png) no-repeat 5px center; padding:0 5px 0 25px;width:165px;height:46px; line-height:46px;}
+.xuanze-main dl dd {margin-left:105px;width:495px;}
+.city-btn { background:url(../images/bg05.png) no-repeat;width:98px;height:42px; line-height:42px;}
+.yuifen {height:48px; line-height:48px;}
+.yuifen span { float:left;margin-right:2px; background:#c4c4c4;width:80px;color:#000;}
+.yuifen .hover { background:#7eca4b;color:#fff;}
+.rili {border:solid 1px #c4c4c4; background:#fff;width:420px;height:260px; padding:13px 0 0 0;}
+.rili .zhou {margin-bottom:4px;}
+.rili .zhou span { float:left;width:36px;height:36px; text-align:center; line-height:36px;font-size:20px;font-weight:bold;color:#000;margin:0 0 5px 21px;}
+.rili li {float:left;width:36px;height:36px; text-align:center; line-height:36px;font-size:20px;font-weight:bold;color:#000;margin:0 0 5px 21px;}
+.rili li span { display:block;height:36px; background:#e7e7e7;}
+.rili li .dq { background:#7eca4b;color:#fff; cursor:pointer;}
+.rili li .cur { background:#f21c00 url(../images/icon5.png) no-repeat center center; text-indent:-999em; overflow:hidden;}
+.xuanze-main dl dd .time { background:url(../images/bg06.png) no-repeat;width:98px;height:42px; line-height:42px;}
+.time-list { padding-top:36px;}
+.time-list li { background:#7eca4b; line-height:36px;width:106px;height:36px;margin:0 17px 14px 0; float:left;}
+.time-list li span { height:36px; display:block; cursor:pointer;}
+.time-list li .cur { background:url(../images/bg07.png) no-repeat;}
+.xuanze-main dl dd .txt { line-height:48px; padding:15px 0;}
+.xuanze-main dl dd .anniu { background:url(../images/queren-btn.png) no-repeat;width:203px;height:53px;}
+.qr-bg {background:url(../images/bodybg4.jpg) no-repeat  center 0 fixed;background-size:100% 100%;}
+.qr-main { background:#deeeb6 url(../images/bg5.gif) no-repeat 0 bottom; padding-top:35px; height:490px;}
+.qr-main .con {margin-left:340px;border:solid 1px #bac4a2;width:513px;height:310px; background:url(../images/png2.png) repeat;}
+.qr-main .con h3 { line-height:98px; padding-left:65px;}
+.qr-main .con dl { padding:29px 0 0 52px;}
+.qr-main .con dl dd { padding-bottom:17px;}
+.qr-main .con dl dd h4 { background:url(../images/bg08.png) no-repeat;width:128px;height:33px; line-height:33px; padding-left:13px;}
+.qr-main .con dl dd span { float:left; line-height:33px; padding-left:20px;font-size:20px;color:#000;}
+.bot-anniu { padding:47px 83px 0 440px;}
+.back-btn { background:url(../images/back-btn.png) no-repeat;width:204px;height:52px;}
+.qr-close-btn { background:url(../images/qr-close-btn.png) no-repeat;width:204px;height:52px;}
+.qr-main .con .txt {color:#ff3c00; padding:54px 14px; line-height:48px; text-align:justify; }
