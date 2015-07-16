@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Url;
 ?>
-<div class="xz-wrap clearfix">
+<div class="xz-wrap clearfix" id="step1">
     <div class="xuanze-main">
         <dl class="clearfix">
             <dt class="fl font16 gfff bold">请选择城市</dt>
@@ -75,13 +75,13 @@ use yii\helpers\Url;
                     <li><span>17:00</span></li>
                 </ul>
                 <p class="txt font18 bold black clearfix">选择该面试时间，如果你顺利通过一面和二面，后续的面试<br/>会安排在当天下午13:00进行，请提前规划好你的时间。</p>
-                <a class="block anniu" href="<?=Url::toRoute(['date/confirm'])?>"></a>
+                <a class="block anniu" id="btn_confirm" href="#"></a>
             </dd>
         </dl>
     </div>
 </div>
 
-<div class="xz-wrap clearfix" style="display:none">
+<div class="xz-wrap clearfix" id="step2" style="display:none">
     <div class="qr-main">
         <div class="con clearfix">
             <h3 class="font20 black">您的选择：</h3>
@@ -98,8 +98,15 @@ use yii\helpers\Url;
             </dl>
         </div>
         <p class="bot-anniu clearfix">
-            <a class="fl back-btn" href="<?=Url::to(['date/setting'])?>"></a>
-            <a class="fr qr-close-btn" href="<?=Url::toRoute(['date/success'])?>"></a>
+            <a class="fl back-btn" id="btn_reconfirm" href="#"></a>
+            <a class="fr qr-close-btn" id="btn_commit" href="#"></a>
         </p>
     </div>
 </div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+    alert('hello');
+});
+</script>
