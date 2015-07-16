@@ -1,12 +1,12 @@
 <?php
 use yii\helpers\Html;
 use yii\helpers\Url;
-//use app\assets_b\AppAsset;
+use app\assets_b\AppAsset;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-//AppAsset::register($this);
+AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
