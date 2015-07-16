@@ -105,8 +105,17 @@ use yii\helpers\Url;
 </div>
 
 
-<script type="text/javascript">
-$(document).ready(function(){
-    alert('hello');
+<?php
+$js = <<<EOB
+$('#btn_confirm,#btn_reconfirm').click(function(){
+    toggle();
 });
+
+function toggle() {
+ $('#step1').toggle();
+ $('#step2').toggle();
+}
+EOB;
+$this->registerJs($js);
+?>
 </script>
