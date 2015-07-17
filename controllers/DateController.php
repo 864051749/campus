@@ -25,7 +25,6 @@ class DateController extends Controller
             'status' => '预约状态',
         );
         $model = new Interview();
-        //判断POST和保存是否成功，成功跳转到成功页，不成功则返回选择页
         if ($model->load($data) && $model->save()) {
             return $this->redirect('success');
         } else {
